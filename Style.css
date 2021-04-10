@@ -1,0 +1,695 @@
+.full_height{
+	height:auto;
+	min-width:300px;
+	max-width: 1600px;
+	min-height: 550;
+	max-height: 1700px;
+}	
+
+.Head{
+	width:100%;
+	min-width:300px;
+	height:auto;
+	/*border:0px solid white;*/
+	background:#042832;
+	color:white;
+	float:left;
+}
+
+.Head1{
+	width:100%;
+	height:auto;
+	border:0px solid  white;
+	background:#042832;
+	color:white;
+	float:left;
+}
+
+.Head1_pic{
+	width:auto;
+	height:auto;
+	float:left;
+	max-height:90px;
+}
+
+.Head1_ex{
+	width:70%;
+	height:15px;
+	float:left;
+}
+
+.Head1_Name{
+	width:70%;
+	height:auto;
+	float:left;
+	text-align:center;
+}
+
+#Head2{
+	width:100%;
+	height:auto;
+	background:#053744;
+	color:white;
+	float:left;
+}
+#Head2 a{
+    display: block;
+	color:white;
+    text-decoration: none;
+    height: 25px;
+    transition:1s;
+	transform:scale(.95);
+}
+
+#Head2 ul{
+    list-style-type: none;
+    background-color: #fff;
+    z-index:999;
+}
+#Head2 ul li{
+    float: left;
+    position: relative;
+}
+#Head2 ul li:last-child{
+    border-right: none;
+    
+}
+#Head2 ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#fff;
+    display: block;
+    padding: 12px 20px;
+    font-family:arial;
+}
+#Head2 ul li a:hover{
+	
+	transform:scale(1.02);
+     background-color:#053744;
+     color:#76C0F9;
+}
+#Head2 ul li ul{
+    position: absolute;
+    left: -99999px;
+    background-color: #053744;
+}
+#Head2 ul li ul li{
+    float: none;
+    border-right:none;
+    border-bottom: 1px solid #fff;
+    width:200px;
+	position:relative;
+}
+#Head2 ul li:hover ul{
+    left: 0;
+	transform:scale(1.02);
+     background-color:#053744;
+     color:#76C0F9;
+}
+
+
+
+
+.Feed{
+	width:100%;
+	height:auto;
+	min-height:500px;
+	background:#c5edfa;
+	color:white;
+	overflow: hidden;
+	min-width:300px;
+}
+
+.Footer{
+	width:100%;
+	height:auto;
+	background:red;
+	color:white;
+	float:left;
+	min-width:300px;
+}
+
+.Footer1{
+	width:100%;
+	max-height:80px;
+	height:auto;
+	background:#455a64;
+	color:white;
+	float:left;
+}
+
+.Footer2{
+	width:100%;
+	height:auto;
+	background:#3d5059;
+	color:white;
+	float:left;
+}
+
+
+/*inside div3 home page*/
+
+#parentHome{
+	background-color: white;
+	height:auto;
+	width: 100%;
+}
+.addHome{
+	background-color: #902239;;
+	height: auto;
+	font-size: 1vw;
+	width: 100%;
+	height:480px;
+	float: left;
+	margin: 0 auto;
+}
+
+.addHome2{
+	background-color: #902239;;
+	height:auto;
+	font-size: 1vw;
+	width: 29.9%;
+	height:420px;
+	float: left;
+}
+
+.welcomeText{
+	width:100%;
+	height:auto;
+	color:red;
+	float:left;
+}
+
+
+/*inside div3 login page*/
+.loginMain{
+	background-image: url("image/login.jpg");
+	height: auto;
+	width: 33.33%;
+	margin:0 auto;
+	border-radius:15px;
+	margin-top:10px;
+	/* display:inline; */
+}
+
+input{
+    margin-bottom:10px;
+    margin-top: 20px;
+    width: 80%;
+	height: 40px;
+    margin-left: 2vw;
+	margin-right: 4vw;
+	background: black;
+	color: white;
+}
+
+.loginMain input[type="password"],input[type="text"],input[type="email"]{
+	background: white;
+	color: black;
+	width: 80%;
+	height: 40px;
+}
+
+.loginMain input[type="submit"]{
+    border: none;
+	width: 40%;
+    border-radius:50px;
+    height: 40px;
+    color: white;
+    background-color: green;
+    font-size: 20px; 
+	min-width: 100px;
+}
+
+.loginMain input[type="submit"]:hover{
+    cursor: pointer;
+	background-color: #35028D;
+
+}
+
+
+
+
+/*Dashboard*/
+.dashboard{	
+	background-color: white;
+	height: auto;
+	border-radius:15px;
+	width: 80%;
+	margin:0 auto;
+	margin-top:15px;
+	border:2px solid  black;
+}
+
+.dashboard_titel{
+	width: 99.6%;
+	border-radius:13px;
+	height: auto;
+	background: white;
+	border:2px solid  black;
+	margin: 0 auto;
+}
+
+
+
+.dashboard_button{
+	width: 99.6%;
+	min-height:220px;
+	height: auto;
+	border-radius:13px;
+	background: white;
+	border:2px solid black;
+	margin: 0 auto;
+		
+}
+
+.dashboard_pic{
+	border:2px solid black;
+	border-radius:15px;
+	width:auto;
+	background-color:white;
+	height:auto;
+	float:left;
+	margin-top:40px;
+}
+
+.dashboard_pic_titel{
+	width: 99.6%;
+	border-radius:13px;
+	height: auto;
+	background: white;
+	border:2px solid  black;
+	margin: 0 auto;
+}
+
+
+#dashboardList{	
+	width:32%;
+	height:auto;
+	background:#35028D;
+	border-radius:13px;
+	min-width:125px;
+	color:white;
+	text-align: center;
+	border:5px solid  white;
+	text-decoration: none;
+	float: left;
+	/*padding: 0.7% 0.7% 0.7% 0.7%;*/
+}
+#dashboardList a{
+	
+	display: block;
+	color:white;
+    text-decoration: none;
+    transition:1s;
+	text-decoration: none;
+	transform:scale(.95);
+	
+    
+}
+#dashboardList a:hover{
+	
+	transform:scale(1.0);
+    background-color:#35028D;
+    color:#76C0F9;
+}
+
+
+
+/*Inside div3 addsales page*/
+.customerDetails{
+	background-color: pink;
+	color: white;
+	height: auto;
+	border-radius:15px;
+	width: 80%;
+	margin:0 auto;
+	margin-top:10px;
+	border:2px solid  black;
+	/* display:inline; */
+}
+
+.customerDetails_titel{
+	width: 98.5%;
+	border-radius:13px;
+	height: auto;
+	background: white;
+	border:2px solid  black;
+	margin: 0 auto;
+}
+
+.customerDetails_input{
+	width: 98.5%;
+	height: auto;
+	border-radius:13px;
+	background: white;
+	border:2px solid black;
+	margin: 0 auto;
+}
+
+.customerDetails input[type="text"]{
+	background: #053744;
+	color: white;
+	width: 94%;
+	float: left;
+	height: 35px;
+}
+
+.customerDetails input[type="submit"]{
+    border: 1px solid blue;
+	width: 10%;
+    border-radius:20px;
+    height: 35px;
+    color: black;
+	min-width: 70px;
+    background-color: white;
+    font-size: 20px;
+  
+}
+
+.customerDetails input[type="submit"]:hover{
+    cursor: pointer;
+	background-color: gray;
+	color: white;
+
+}
+
+#addSales{
+	background-color: white;
+	color: black;
+	height: auto;
+	border-radius:15px;
+	width: 80%;
+	margin:0 auto;
+	margin-top:10px;
+	border:2px solid  black;
+	padding-left: 2%;
+	padding-bottom:0.5%;
+	display: none;
+}
+#addSales input[type="submit"]{
+    border: 1px solid blue;
+	width: 10%;
+    border-radius:20px;
+    height: 35px;
+    color: black;
+	min-width: 70px;
+    background-color: white;
+    font-size: 20px;
+  
+}
+#addSales input[type="submit"]:hover{
+    cursor: pointer;
+	background-color: gray;
+	color: white;
+
+}
+
+
+
+/*Inside div3 add_Food page*/
+.addFood{
+	background: pink;
+	color: white;
+	height: auto;
+	/*min-height:575px;*/
+	border-radius:15px;
+	width: 80%;
+	margin:0 auto;
+	margin-top:10px;
+	border:2px solid  black;
+	/* display:inline; */
+}
+
+.addFood1{
+	width: 98%;
+	height: auto;
+	background: white;
+	border:2px solid  black;
+	/*padding: 0% 0% 0% 0%;*/
+	margin: 0 auto;
+}
+
+.addFood_titel{
+	width: 99.6%;
+	height: auto;
+	background: white;
+	border:2px solid  black;
+	margin: 0 auto;
+	
+}
+
+.addFood_input{
+	width: 99.6%;
+	height: auto;
+	background: white;
+	border:2px solid black;
+	margin: 0 auto;
+}
+
+.addFood_ex{
+	width:80%;
+	height:auto;
+	min-height:30px;
+	float:left;
+}
+
+.addFood_input input[type="text"]{
+	background: #053744;
+	/*color: black;*/
+	width: 94%;
+	float: left;
+	/*height: 35px; */
+}
+
+.addFood_input input[type="submit"]{
+    border: 1px solid blue;
+	width: 15%;
+    border-radius:25px;
+    height: 35px;
+    color: black;
+    background-color: white;
+	min-width: 80px;
+    font-size: 20px;
+  
+}
+
+
+ .addFood_input input[type="submit"]:hover{
+    cursor: pointer;
+	background-color: gray;
+	color: white;
+
+}
+
+
+
+
+.foodDetails_titel{
+	width: 99.6%;
+	color:black;
+	height: auto;
+	background: white;
+	border:2px solid  black;
+	margin: 0 auto;
+	
+}
+
+
+
+
+/*--- Inside div3 changePassword page ---*/
+.changePass{
+	background-color: #DEB887;
+	color: white;
+	height: auto;
+	/*min-height:575px;*/
+	border-radius:15px;
+	width: 80%;
+	margin:0 auto;
+	margin-top:10px;
+	border:2px solid  black;
+	/* display:inline; */
+}
+
+.changePass1{
+	width: 98%;
+	height: auto;
+	background: gray;
+	border:2px solid  black;
+	/*padding: 0% 0% 0% 0%;*/
+	margin: 0 auto;
+}
+
+.changePass_titel{
+	width: 99.6%;
+	height: auto;
+	background: white;
+	border:2px solid  black;
+	margin: 0 auto;
+}
+
+.changePass_input{
+	width: 90%;
+	height: auto;
+	background: white;
+	border:2px solid black;
+	margin: 0 auto;
+}
+
+
+
+.changePass_input input[type="text"], input[type="password"]{
+	background: #053744;
+	/*color: black;*/
+	width: 90%;
+	float: left;
+	/*height: 35px; */
+}
+
+.changePass_input input[type="submit"]{
+    border: 1px solid blue;
+	width: 15%;
+    border-radius:25px;
+    height: 35px;
+    color: black;
+    background-color: white;
+	min-width: 80px;
+    font-size: 16px;
+  
+}
+
+
+ .changePass_input input[type="submit"]:hover{
+    cursor: pointer;
+	background-color: gray;
+	color: white;
+
+}
+
+/*--- Inside div3 About page ---*/
+.about{
+	background-color: pink;
+	color: white;
+	height: auto;
+	border-radius:15px;
+	width: 80%;
+	margin:0 auto;
+	margin-top:10px;
+	border:2px solid  black;
+	/* display:inline; */
+}
+
+.about_titel{
+	width: 98.5%;
+	border-radius:13px;
+	height: auto;
+	background: white;
+	border:2px solid  black;
+	margin: 0 auto;
+}
+
+.about_body{
+	width: 92.5%;
+	border-radius:13px;
+	height: auto;
+	background: white;
+	color: black;
+	border:2px solid  black;
+	margin: 0 auto;
+	padding: 2% 2% 2% 2%;
+}
+
+.about_body p{
+	text-align: justify;
+	text-indent: 50px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+	word-spacing: 4px;
+	font-size: 18px;
+}
+
+
+
+
+/*--- Inside div3 help page ---*/
+.help{
+	background-color: pink;
+	color: white;
+	height: auto;
+	border-radius:15px;
+	width: 80%;
+	margin:0 auto;
+	margin-top:10px;
+	border:2px solid  black;
+	/* display:inline; */
+}
+
+.help_titel{
+	width: 98.5%;
+	border-radius:13px;
+	height: auto;
+	background: white;
+	border:2px solid  black;
+	margin: 0 auto;
+}
+
+.help_body{
+	width: 92.5%;
+	border-radius:13px;
+	height: auto;
+	background: white;
+	color: black;
+	border:2px solid  black;
+	margin: 0 auto;
+	padding: 2% 2% 2% 2%;
+}
+
+.help_body p{
+	text-align: justify;
+	text-indent: 50px;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+	word-spacing: 4px;
+	font-size: 18px;
+}
+
+.help_body ul {
+	background: #ff9999;
+	padding: 20px;
+}
+
+.help_body ul li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+
+
+
+
+/*----------------------------------- Table design --------------------------------*/
+#tab{
+    width: 100%;
+    height: auto;
+	background: white;
+    overflow: hidden;
+}
+#tab table{
+    color: white;
+    width: 95%;
+    font-family: arial, sans-serif;
+    border-collapse:collapse;
+    text-align: center;
+}
+#tab table td, th {
+    border: 1px solid white;
+    padding: 5px;
+}
+#tab table th {
+background-color: #042832;
+}
+#tab table  td{
+  background-color: #3D5059;
+}
